@@ -64,20 +64,7 @@
     margin: 50px -100px;
 }
 
-#fotoPredio{
-    display: none;
-    grid-auto-flow: column;
-    columns: auto;
-    margin: 50px -100px;
-}
-
 #fotoLoft:hover{
-    transform: translatey(5px);
-    transform: scale(106%);
-    transition-duration: 0.5s;
-}
-
-#fotoPredio:hover{
     transform: translatey(5px);
     transform: scale(106%);
     transition-duration: 0.5s;
