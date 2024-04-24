@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+}
+
+#menuSuperior{
+    padding: 100px ;
+    background-color: #303030;
+    color: #ffff;
+}
+
+.titulo{
+    margin-left: -30px;
+}
+
+#tituloPrincipal {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#textoPrincipal {
+    font-size: 17px;
+}
+
+#menuSuperiorTexto{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 0px;
+    padding: 50px;
+}
+
+.icones{
+    margin-left: 50px;
+}
+
+.icones:hover {
+    transform: translatey(-5px);
+    transition-duration: 0.5s;
+}
+
+#menuInformacional{
+    background-color: #ffffff;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+} 
+
+#tituloInformacional{
+    margin: 25% 60px 0px;
+    font-size: 40px;
+}
+
+#textoInformacional{
+    margin: 0% 60px 0px;
+    font-size: 24px;
+}
+
+#fotoLoft{
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 50px -100px;
+}
+
+#fotoPredio{
+    display: none;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 50px -100px;
+}
+
+#fotoLoft:hover{
+    transform: translatey(5px);
+    transform: scale(106%);
+    transition-duration: 0.5s;
+}
+
+#fotoPredio:hover{
+    transform: translatey(5px);
+    transform: scale(106%);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    padding: 20px;
+    color: #ffffff;
+    background-color: #303030;
+    text-align: center;
+}
+
+#tituloFormulario{
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #ffffff;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    font: Raleway;
+}
+
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    top: 1955px;
+    left: 577px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    color: #ffffff;
+    border: 0px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffa231;
+    color: white;
+    transform: translatey(-7px);
+    transition-duration: 0.5s;  
+    box-shadow: 0px 15px 20px #77460aa2 ;
+}
+
+
